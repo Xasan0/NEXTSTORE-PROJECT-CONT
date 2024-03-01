@@ -1,0 +1,96 @@
+#best-products {
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+}
+
+
+#best-products .cards-title {
+    margin-bottom: 20px;
+}
+
+#best-products .card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    width: 230px;
+    height: 390px;
+    border-radius: 15px;
+}
+
+#vest-products .cards-container .card .macbook {
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 15px;
+}
+
+#best-products .card .card-price {
+    font-family: "Nuckle", sans-serif;
+    font-size: 18px;
+    font-weight: 591;
+    line-height: 22px;
+    text-align: left;
+    color: #0D63F3;
+    padding-left: 20px;
+}
+
+#best-products .card .card-feature {
+    font-family: "Nuckle", sans-serif;
+    font-size: 14px;
+    font-weight: 539;
+    line-height: 17px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 20px;
+    color: #1E1E1E;
+    display: block;
+
+}
+
+#best-products .card .delivery {
+    font-family: "Nuckle", sans-serif;
+    font-size: 12px;
+    font-weight: 539;
+    line-height: 17px;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: #6C757D;
+}
+
+#best-products .card .card-footer {
+    padding-left: 20px;
+    padding-top: 8px;
+}
+
+#best-products .card .card-footer button {
+    background-color: #0D63F3;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#best-products .card .card-footer img {
+    margin-bottom: -13px;
+    margin-left: 29px;
+}
+
+#best-products .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 25px;
+    grid-row-gap: 26px;
+}
+
+#best-products .detail {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 15px;
+    background-color: #fff;
+}

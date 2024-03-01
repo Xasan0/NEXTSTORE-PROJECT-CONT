@@ -1,0 +1,65 @@
+#computers {
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+}
+
+#computers .wrapper h3 {
+    font-family: "Nuckle", sans-serif;
+    font-size: 14px;
+    font-weight: 539;
+    line-height: 17px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+#computers .card-wrapper h2 {
+    margin-bottom: 20px;
+}
+
+#computers .wrapper .card_wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+#computers .wrapper .card_wrapper .card .products-card {
+    font-family: "Nuckle", sans-serif;
+    font-size: 16px;
+    font-weight: 539;
+    line-height: 19px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #6C757D;
+}
+
+#computers .wrapper .card_wrapper .card .title-card {
+    padding-bottom: 15px;
+}
+
+#computers .card {
+    background-color: #fff;
+    width: 270px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#computers .card:hover {
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+#computers .card img {
+    width: 135px;
+    margin-top: 8px;
+}

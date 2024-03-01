@@ -1,0 +1,108 @@
+#carousel-sec .carousel {
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+#carousel-sec .swiper {
+    height: 340px;
+    border-radius: 20px;
+    position: relative !important;
+    overflow-x: hidden;
+}
+
+#carousel-sec .swiper-wrapper {
+    background-color: transparent;
+    height: 100%;
+    
+}
+
+#carousel-sec .swiper-slide {
+    height: 100%;
+    width: 100%;
+}
+
+#carousel-sec .swiper-slide .pict{
+    height: 100%;
+    width: 100%;
+}
+
+#carousel-sec .swiper-buttons {
+    position: relative;
+    background-color: #fff;
+    height: 100px;
+}
+
+#carousel-sec .swiper-pagination {
+    position: absolute !important;
+    bottom: 0;
+    margin-top: 300px;
+    transform: translateY(50px);
+    z-index: 3333;
+}
+
+#carousel-sec .swiper-button-prev,
+#carousel-sec .swiper-button-next {
+    position: absolute !important;
+    z-index: 999;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+#carousel-sec .swiper-button-prev::after {
+    font-size: 22px !important;
+    color: #000000;
+    display: grid;
+    place-content: center;
+}
+
+#carousel-sec .swiper-button-next::after {
+    font-size: 22px !important;
+    display: grid;
+    place-content: center;
+    color: #000000;
+}
+
+#carousel-sec .swiper-button-prev:active:after {
+    color: #fff;
+}
+
+#carousel-sec .swiper-button-next:active:after {
+    color: #fff;
+}
+
+#carousel-sec .swiper-button-prev {
+    left: -62px;
+    background-image: var(--bg-gradient-white);
+}
+
+#carousel-sec .swiper-button-prev:active {
+    background-image: var(--bg-gradient-dark);
+
+}
+
+#carousel-sec .swiper-button-next:active {
+    background-image: var(--bg-gradient-dark);
+}
+
+#carousel-sec .swiper-button-next {
+    right: -62px;
+    background-image: var(--bg-gradient-white);
+}
+
+#carousel-sec .swiper-pagination-bullet {
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background-image: var(--bg-gradient-white) !important;
+    background: #fff !important;
+    border: 1px solid #000000;
+}
+
+#carousel-sec .swiper-pagination-bullet-active {
+    background: var(--bg-gradient-dark) !important;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+}
