@@ -1,4 +1,4 @@
-var toogleButton = document.getElementById("toggle");
+var toggleButton = document.getElementById("toggle");
 var iconMenu = document.getElementById("icon-menu");
 var menuPanel = document.getElementById("menu-panel");
 
@@ -8,7 +8,7 @@ var loader=document.getElementById("loader");
 
 // ----- toggle menu -----
 
-toogleButton.addEventListener('click', function () {
+toggleButton.addEventListener('click', function () {
 
     menuPanel.classList.toggle('hide-menu');
     if (!menuPanel.classList.contains('hide-menu')) {
