@@ -77,10 +77,6 @@
     margin-left: 35px;
 }
 
-.menu-grid .menu-grid-item-right ul li {
-    display: flex;
-    text-align: left;
-}
 
 .menu-grid .menu-grid-item-right ul li a {
     text-decoration: none;
