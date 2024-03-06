@@ -1,0 +1,254 @@
+#intro .wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+#intro .wrapper__title {
+    padding-bottom: 40px;
+}
+
+#intro .main-image {
+    width: 540px;
+    height: 540px;
+    border-radius: 10px;
+    background-color: #fff;
+
+    display: grid;
+    place-content: center;
+    margin-bottom: 40px;
+}
+
+#intro .small_images {
+    display: flex;
+    justify-content: space-between;
+}
+
+#intro .small_images .small-image {
+    width: 105px;
+    height: 105px;
+    background-color: #fff;
+    border-radius: 10px;
+
+    display: grid;
+    place-content: center;
+}
+
+#intro .wrapper__info .product-name {
+    font-family: Nuckle, sans-serif;
+    font-size: 28px;
+    font-weight: 591;
+    line-height: 34px;
+    text-align: left;
+}
+
+#intro .wrapper__info .product-colors {
+    display: flex;
+    gap: 70px;
+
+    padding-top: 20px;
+}
+
+#intro .wrapper__info .boxes {
+    display: flex;
+
+    gap: 8px;
+    padding-top: 15px;
+}
+
+#intro .wrapper__info .box-1 {
+    width: 45px;
+    height: 45px;
+
+    background-color: #BEBBC2;
+    border-radius: 5px;
+}
+
+#intro .wrapper__info .box-2 {
+    width: 45px;
+    height: 45px;
+
+    background-color: #F9DED7;
+    border-radius: 5px;
+}
+
+#intro .wrapper__info .box-3 {
+    width: 45px;
+    height: 45px;
+
+    background-color: #FCE9DB;
+    border-radius: 5px;
+}
+
+#intro .wrapper__info .box-4 {
+    width: 45px;
+    height: 45px;
+
+    background-color: #E8E8EA;
+    border-radius: 5px;
+}
+
+#intro .main-price {
+    font-family: Nuckle, sans-serif;
+    font-size: 34px;
+    font-weight: 591;
+    line-height: 51px;
+    text-align: left;
+    padding-top: 40px;
+    padding-bottom: 10px;
+}
+
+#intro .installment-price {
+    font-family: Nuckle, sans-serif;
+    font-size: 24px;
+    font-weight: 591;
+    line-height: 29px;
+    text-align: left;
+}
+
+#intro .lifetime ul li .first-btn {
+    border: 1px solid #0D63F3;
+    border-radius: 10px;
+    padding: 14px 20px;
+}
+
+#intro .lifetime ul li button {
+    border: none;
+    padding: 13px 14px;
+    background-color: #fff;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+#intro .lifetime {
+    display: flex;
+    height: auto;
+    padding-top: 20px;
+}
+
+#intro .lifetime .basket-btn {
+    height: 52px;
+    margin: 10px;
+    border: 1px solid #0D63F3;
+    color: #0D63F3;
+    font-weight: 500;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 16px 26px;
+}
+
+#intro .lifetime ul {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 250px;
+    height: 52px;
+}
+
+#intro .buttons-wrap {
+    padding-top: 40px;
+}
+
+#intro .buy-btn {
+    padding: 15px 72px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0D63F3;
+    color: #fff;
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+#intro .installment-btn:hover {
+    background-color: #0d61f386;
+    cursor: pointer;
+}
+
+#intro .buy-btn:hover {
+    background-color: #0d61f386;
+    cursor: pointer;
+}
+
+#intro .installment-btn {
+    padding: 15px 72px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0D63F3;
+    color: #fff;
+    font-weight: 500;
+}
+
+#intro .product-infos {
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+}
+
+#intro .location-info {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#intro .delivery-info {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#intro .give-back {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#list {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+#list .wrapper_list {
+    width: 1230px;
+    height: 574px;
+
+    border-radius: 10px;
+    background-color: #fff;
+
+}
+
+#list .list_items {
+    padding: 10px 10px;
+}
+
+#list .items_list {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 12px;
+    align-items: center;
+}
+
+#list .items_list .shop-name {
+    font-weight: 700;
+}
+
+#list .items_list .price {
+    font-weight: 500;
+}
+
+#list .items_list .status {
+    color: #0D63F3;
+}
+
+#list .items_list .shop-view {
+    padding: 10px 30px;
+    border: 1px solid #0D63F3;
+    border-radius: 10px;
+    background-color: #ECF4FF;
+    font-weight: 500;
+    color: #0D63F3;
+}
